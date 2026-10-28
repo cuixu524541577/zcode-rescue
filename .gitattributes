@@ -1,0 +1,7 @@
+# Keep the Windows launcher's CRLF bytes in the repository.
+# `-text` disables line-ending conversion, so checkout, raw download, and
+# GitHub zip archives all stay CRLF. Do not re-encode 启动.bat.
+*.bat -text linguist-language=Batchfile
+
+# Binary assets
+*.png binary
